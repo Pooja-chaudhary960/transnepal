@@ -10,7 +10,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center py-4">
 
-          <ul className="flex space-x-8">
+          <ul className="flex space-x-8 items-center">
             <li>
               <Link href="/" className="text-white font-semibold px-3 py-1 rounded-md hover:bg-white hover:text-black transition duration-300">Home</Link>
             </li>
