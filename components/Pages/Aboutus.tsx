@@ -1,4 +1,4 @@
-export default function AboutUsPage() {
+export default function Aboutus() {
   return (
 
       <h1>About Us</h1>

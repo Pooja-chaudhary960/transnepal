@@ -14,7 +14,9 @@ export default function Navbar() {
             <li>
               <Link href="/" className="text-white font-semibold px-3 py-1 rounded-md hover:bg-white hover:text-black transition duration-300">Home</Link>
             </li>
-            <li><DropDownAbout /></li>
+            <li>
+              <DropDownAbout />
+              </li>
             <li><DropDownServices /></li>
             <li>
               <Link href="/tariff" className="text-white font-semibold px-3 py-1 rounded-md hover:bg-white hover:text-black transition duration-300">Tariff</Link>
@@ -27,7 +29,7 @@ export default function Navbar() {
               <Link href="/contact" className="text-white font-semibold px-3 py-1 rounded-md hover:bg-white hover:text-black transition duration-300">Contact</Link>
             </li>
             <li>
-              <Link href="/news-events" className="text-white font-semibold px-3 py-1 rounded-md hover:bg-white hover:text-black transition duration-300">News & Events</Link>
+              <Link href="/newsevents" className="text-white font-semibold px-3 py-1 rounded-md hover:bg-white hover:text-black transition duration-300">News & Events</Link>
             </li>
             <li>
               <Link href="/csr" className="text-white font-semibold px-3 py-1 rounded-md hover:bg-white hover:text-black transition duration-300">CSR</Link>

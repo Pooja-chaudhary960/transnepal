@@ -1,8 +1,8 @@
-import React from 'react'
+import Tarrif from "../../components/Pages/Tarrif";
 
-const page = () => {
+const tarrif = () => {
   return (
-    <div>page</div>
+    <Tarrif/>
   )
 }
-export default page;
+export default tarrif;

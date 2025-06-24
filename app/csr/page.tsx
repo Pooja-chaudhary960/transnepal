@@ -1,8 +1,8 @@
-import React from 'react'
+import CSR from "../../components/Pages/CSR"
 
 const page = () => {
   return (
-    <div>page</div>
+    <CSR/>
   )
 }
 export default page;

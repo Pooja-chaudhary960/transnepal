@@ -4,7 +4,7 @@ import { FaChevronDown } from 'react-icons/fa';
 export default function DropDownAbout() {
   return (
     <div className="relative group inline-block">
-      <button className="flex items-center text-white font-semibold px-3 py-1 rounded-md hover:bg-white hover:text-black transition duration-300">
+      <button className="flex items-center text-white font-semibold px-3 py-1 rounded-md hover:bg-white hover:text-black transition duration-300 cursor-pointer">
         About Us <FaChevronDown className="ml-1 text-xs" />
       </button>
 
