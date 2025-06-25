@@ -15,7 +15,7 @@ export default function Header() {
                 </div>
 
                 {/* Right: Contact Info */}
-                <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto justify-center sm:justify-end items-center sm:items-start text-gray-700 text-sm text-center sm:text-left">
+                <div className="hidden sm:flex flex-col sm:flex-row gap-4 w-full sm:w-auto justify-center sm:justify-end items-center sm:items-start text-gray-700 text-sm text-center sm:text-left">
                     
                     {/* Email */}
                     <div>
@@ -28,7 +28,7 @@ export default function Header() {
                     </div>
 
                     {/* Phone */}
-                    <div>
+                    <div className="pl-4">
                         <span className="text-gray-500 text-base font-semibold text-[14px] mb-4 sm:mt-4 block">
                             Call Us For Your Queries
                         </span>
