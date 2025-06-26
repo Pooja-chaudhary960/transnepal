@@ -90,7 +90,7 @@ export default function Footer() {
         {/* Logo */}
         <div className="md:col-span-1">
           <h4 className="text-base text-white mb-6">JOINT VENTURE WITH</h4>
-          <img src="/images/allcargo.png" alt="All Cargo" className="w-48 mt-6" />
+          <img src="/images/image.png" alt="All Cargo" className="w-40 h-auto mt" />
         </div>
       </div>
 
