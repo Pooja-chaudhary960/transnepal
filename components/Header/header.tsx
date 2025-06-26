@@ -6,7 +6,7 @@ export default function Header() {
             <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-6">
                 
                 {/* Leftside: LogoSection */}
-                <div className="flex items-center justify-center sm:justify-start w-full sm:w-auto">
+                <div className="flex items-center justify-center sm:justify-start w-full sm:w-auto -ml-8">
                     <img
                         src="/images/transnepalLogo.png"
                         alt="All Cargo"

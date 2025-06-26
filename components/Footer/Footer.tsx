@@ -10,8 +10,8 @@ export default function Footer() {
     <footer className="bg-[#2c2c2c] text-white text-sm mt-10">
 
       {/* Top Section */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-4 sm:px-6 md:px-10 py-10 bg-[#f4f4f4] text-black">
-        <div>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-6 md:px-10 py-10 bg-[#f4f4f4] text-black">
+        <div className='col-span-1 px-4'>
           <h3 className="text-base text-gray-700 mb-6">WORKING HOURS</h3>
           <div className="flex items-center gap-2">
             <FaClock className="text-[#00adef] text-xl" />
@@ -21,7 +21,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div>
+        <div className='col-span-1 px-4'>
           <h3 className="text-base text-gray-700 mb-6">ADDRESS INFORMATION</h3>
           <div className="flex items-start gap-2 mb-6">
             <FaEnvelope className="text-[#00adef] text-xl" />
@@ -29,13 +29,13 @@ export default function Footer() {
               <strong>Email:</strong> transnepal_brt@transnepaldryport.com
             </p>
           </div>
-          <div className="flex items-start gap-2 mt-4">
+          <div className="flex items-start gap-2 mt-4 ">
             <FaMapMarkerAlt className="text-[#00adef] text-xl" />
             <p>TransNepal Tower, Piyush Marg, Biratnagar-05, Nepal</p>
           </div>
         </div>
 
-        <div>
+        <div className='col-span-1 px-4'>
           <h3 className="text-base text-gray-700 mb-6">CONTACT INFORMATION</h3>
           <div className="flex items-start gap-2 mb-6">
             <FaPhoneAlt className="text-[#00adef] text-xl" />
@@ -90,7 +90,7 @@ export default function Footer() {
         {/* Logo */}
         <div className="md:col-span-1">
           <h4 className="text-base text-white mb-6">JOINT VENTURE WITH</h4>
-          <img src="/images/image.png" alt="All Cargo" className="w-40 h-auto mt" />
+          <img src="/images/imagecargo.png" alt="All Cargo" className="w-40 h-auto mt" />
         </div>
       </div>
 
