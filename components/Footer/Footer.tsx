@@ -10,7 +10,7 @@ export default function Footer() {
     <footer className="bg-[#2c2c2c] text-white text-sm mt-10">
 
       {/* Top Section */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-6 py-10 bg-[#f4f4f4] text-black">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-4 sm:px-6 md:px-10 py-10 bg-[#f4f4f4] text-black">
         <div>
           <h3 className="text-base text-gray-700 mb-6">WORKING HOURS</h3>
           <div className="flex items-center gap-2">
