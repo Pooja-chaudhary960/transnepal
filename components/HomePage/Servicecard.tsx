@@ -46,7 +46,7 @@ export default function Servicecard() {
     {
       title: "WEIGHMENT",
       description: "Weighing activities were being carried out at remote locations making it cost ineffective and time consuming",
-      image: "images/image.png"
+      image: "images/weighment1image.png"
     }
   ];
 
