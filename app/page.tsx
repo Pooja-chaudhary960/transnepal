@@ -5,6 +5,7 @@ import Homesection from "../components/HomePage/Homesection";
 import FeaturesPage from "../components/HomePage/Featurespage";
 import Welcomesection from "../components/HomePage/Welcomesection";
 import Testimonialsection from "../components/HomePage/Testimonialsection";
+import Formsection from "../components/HomePage/Formsection";
 
 
 
@@ -18,6 +19,7 @@ export default function Page() {
    <FeaturesPage/>
    <Welcomesection/>
    <Testimonialsection/>
+   <Formsection/>
     </>
   );
 }
