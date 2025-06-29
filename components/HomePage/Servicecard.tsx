@@ -10,7 +10,7 @@ type ServiceProps = {
 };
 
 const ServiceCard = ({ title, description, image, reverse = false }: ServiceProps) => (
-  <div className="flex flex-col items-center bg-white shadow-md rounded-lg overflow-hidden mb-6 md:mb-0">
+  <div className="flex flex-col items-center bg-white shadow-md rectangle-lg overflow-hidden mb-6 md:mb-0">
     {reverse ? (
       <>
         <div className="bg-sky-500 w-full text-white text-center py-6 px-4 flex flex-col justify-center">

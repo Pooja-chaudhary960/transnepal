@@ -7,7 +7,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-[#2c2c2c] text-white text-sm mt-10">
+    <footer className="bg-[#2c2c2c] text-white text-sm ">
 
       {/* Top Section */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-6 md:px-10 py-10 bg-[#f4f4f4] text-black">

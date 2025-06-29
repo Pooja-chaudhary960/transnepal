@@ -1,10 +1,10 @@
 export default function Welcomesection() {
     return (
         <div className="h-auto bg-gray-500 flex items-center justify-center py-4 px-4">
-            <div className="grid md:grid-cols-2 gap-10 max-w-7xl w-full bg-gray-500 rounded-xl shadow-lg overflow-hidden">
+            <div className="grid md:grid-cols-2 gap-10 max-w-7xl w-full bg-gray-500 rectangle-xl overflow-hidden">
 
                 {/* Left parts*/}
-                <div className="bg-gray">
+                <div className="bg-gray-500">
                     <img
                         src="/images/welcomesec.png" 
                         alt="TransNepal"
