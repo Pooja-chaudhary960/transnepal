@@ -4,12 +4,13 @@ import { Plus, Paperclip, Menu, MessageSquare } from "lucide-react";
 export default function About() {
     return (
         <div className="px-6 py-12 md:px-24 flex justify-center">
-        <div className="w-full max-w-6xl px-0 md:px-6 ml-4 md:ml-30">
-            <h2 className="text-3xl md:text-4xl font-bold text-green-600 mb-6">About Us</h2>
+        <div className="w-full max-w-10xl px-0 md:px-6 ml-4 md:ml-20">
+            <h2 className="text-3xl md:text-4xl font-bold text-green-600 mb-4">About Us</h2>
 
-            <div className="flex flex-col md:flex-row items-start gap-10">
+            <div className="flex flex-col md:flex-row items-center gap-8">
                 {/* Text Section */}
-                <div className="flex-1 text-gray-700 leading-relaxed text-base text-[16px] text-justify space-y-4">
+                <div className="w-full max-w-none text-gray-700 leading-relaxed text-justify text-base
+           ">
                     <p>
                         TransNepal Freight Services Pvt. Ltd., was incorporated in the year 2002 under the Nepalese Company Act and started operation from 17th
                         April 2002 by taking over the operation and management of the two ICDs’ at Biratnagar and Bhairahawa on lease for a period of ten years
@@ -25,12 +26,12 @@ export default function About() {
 
                 {/* Image Section */}
                 <div className="w-full md:w-1/2 flex justify-center">
-                    <img src="images/aboutus.png" className="rounded-lg shadow-md w-auto h-[400px]" />
+                    <img src="images/aboutus.png" className="rounded-lg shadow-md w-auto h-[330px] mb-4" />
                 </div>
             </div>
 
             {/* Icons Section */}
-            <div className="mt-12 justify-start gap-12 hidden md:flex ">
+            <div className="mt-8 justify-start gap-12 hidden md:flex ">
                 <div className="w-15 h-15 flex items-center justify-center border-2 border-green-500 rounded-xl hover:scale-110 transition ">
                     <Plus className="w-8 h-8 text-green-600" />
                 </div>

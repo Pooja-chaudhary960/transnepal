@@ -1,8 +1,8 @@
 export default function Testimonialsection() {
   return (
     <div className="bg-white py-6 px-4 mt text-center">
-      <h2 className="text-lg text-black-700 font-semibold mb-2">TESTIMONIAL</h2>
-      <p className="text-black-500 text-base max-w-full mb-10">
+      <h2 className="text-lg text-black-700 font-semibold mb-2 pt-6">TESTIMONIAL</h2>
+      <p className="text-black-500 text-base max-w-full mb-14 mt-4 ">
         We understand that in order to maximize customer satisfaction, the flow of your supply chain from product to information to finance needs to be responsive towards demand.
       </p>
 

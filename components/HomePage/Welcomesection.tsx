@@ -13,11 +13,11 @@ export default function Welcomesection() {
                 </div>
 
                 {/* Right parts */}
-                <div className="bg-blue-500 text-white p-10 flex flex-col justify-center">
-                    <h2 className="text-3xl font-bold mb-4">
+                <div className="bg-blue-500 text-white p-4 flex flex-col justify-center">
+                    <h2 className="text-3xl font-bold mb-4 mt-2 ml-2">
                         Welcome to TransNepal
                     </h2>
-                    <p className="leading-7 text-justify text-sm md:text-base">
+                    <p className="leading-7 text-justify text-xl md:text-base pb-4 mb-10">
                         Government of Nepal’s strategic move to manage the EXIM traffics through ICPs/ ICDs put Nepal on Multi-Modal
                         Logistics map in the year 2002 when Nepal Intermodal Transport Development Board had invited tender for leasing
                         of operation and management of two ICDs at Biratnagar and Bhairahawa. TransNepal was successful in acquiring both
