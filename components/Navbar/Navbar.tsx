@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 import {
   FaFacebookF,
@@ -15,14 +16,13 @@ import DropDownAssociates from "./DropDownAssociates";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const [hoveredItems, setHoveredItems] = useState<string[]>([]);
+  const pathname = usePathname();
 
-  const handleHover = (item: string) => {
-    if (typeof window !== "undefined" && window.innerWidth >= 768) {
-      if (!hoveredItems.includes(item)) {
-        setHoveredItems([...hoveredItems, item]);
-      }
+  const isActive = (href:string) => {
+    if (href === "/") {
+      return pathname === "/";
     }
+    return pathname.startsWith(href);
   };
 
   return (
@@ -34,7 +34,6 @@ export default function Navbar() {
             <button
               onClick={() => {
                 setIsOpen(!isOpen);
-                setHoveredItems([]); 
               }}
               className="text-white text-2xl focus:outline-none"
             >
@@ -51,9 +50,8 @@ export default function Navbar() {
             <li>
               <Link
                 href="/"
-                onMouseEnter={() => handleHover("home")}
                 className={`px-4 py-2 rounded-md font-semibold transition ${
-                  hoveredItems.includes("home")
+                  isActive("/")
                     ? "bg-white text-black"
                     : "hover:bg-white hover:text-black"
                 }`}
@@ -69,15 +67,14 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                href="/tarrif"
-                onMouseEnter={() => handleHover("tarrif")}
+                href="/tariff"
                 className={`px-4 py-2 rounded-md font-semibold transition ${
-                  hoveredItems.includes("tarrif")
+                  isActive("/tariff")
                     ? "bg-white text-black"
                     : "hover:bg-white hover:text-black"
                 }`}
               >
-                Tarrif
+                Tariff
               </Link>
             </li>
             <li>
@@ -86,9 +83,8 @@ export default function Navbar() {
             <li>
               <Link
                 href="/gallery"
-                onMouseEnter={() => handleHover("gallery")}
                 className={`px-4 py-2 rounded-md font-semibold transition ${
-                  hoveredItems.includes("gallery")
+                  isActive("/gallery")
                     ? "bg-white text-black"
                     : "hover:bg-white hover:text-black"
                 }`}
@@ -99,9 +95,8 @@ export default function Navbar() {
             <li>
               <Link
                 href="/contact"
-                onMouseEnter={() => handleHover("contact")}
                 className={`px-4 py-2 rounded-md font-semibold transition ${
-                  hoveredItems.includes("contact")
+                  isActive("/contact")
                     ? "bg-white text-black"
                     : "hover:bg-white hover:text-black"
                 }`}
@@ -111,23 +106,21 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                href="/newevents"
-                onMouseEnter={() => handleHover("newevents")}
+                href="/newsevents"
                 className={`px-4 py-2 rounded-md font-semibold transition ${
-                  hoveredItems.includes("newevents")
+                  isActive("/newevents")
                     ? "bg-white text-black"
                     : "hover:bg-white hover:text-black"
                 }`}
               >
-                Tarrif
+                New Events
               </Link>
             </li>
             <li>
               <Link
                 href="/csr"
-                onMouseEnter={() => handleHover("csr")}
                 className={`px-4 py-2 rounded-md font-semibold transition ${
-                  hoveredItems.includes("csr")
+                  isActive("/csr")
                     ? "bg-white text-black"
                     : "hover:bg-white hover:text-black"
                 }`}

@@ -1,7 +1,7 @@
 export default function Page (){
     return(
         <div>
-            <h1>Board of Director</h1>
+            <h1>ICP Biratmagar</h1>
         </div>
     )
 }
