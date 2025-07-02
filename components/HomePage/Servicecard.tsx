@@ -11,12 +11,12 @@ type ServiceProps = {
 };
 
 const ServiceCard = ({ title, description, image, reverse = false, index }: ServiceProps) => (
-  <div className={`flex flex-col items-center bg-white shadow-md mb-6 md:mb-0 overflow-hidden ${
+  <div className={`flex flex-col items-center bg-white shadow-md mb-6 md:mb-0 overflow-hidden w-full ${
     index === 0
-    ? 'md:rounded-l-[15px]'
+    ? ' rounded-[15px] md:rounded-none md:rounded-l-[15px]'
     : index === 2
-    ? 'md:rounded-r-[15px]'
-    :''
+    ? 'rounded-[15px] md:rounded-none md:rounded-r-[15px]'
+    :'rounded-[15px] md:rounded-none'
   }`}
     
   >
