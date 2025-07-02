@@ -11,11 +11,11 @@ export default function Boardofdirector() {
                 />
             </div>
             <div className="max-w-6xl mx-auto px-4 py-12">
-                <h1 className="text-2xl md:text-3xl font-semibold mb-12 text-center">BOARD OF DIRECTOR</h1>
+                <h1 className="text-2xl md:text-3xl font-semibold mb-12 text-center pb-4">BOARD OF DIRECTOR</h1>
 
                 {/* chairman*/}
                 <div className="space-y-12">
-                <div className="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-8">
+                <div className="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-15">
                     <div className="grid grid-cols-1 gap-12 place-items-center">
                         <img
                             src="/images/adarsh.png"
@@ -41,7 +41,7 @@ export default function Boardofdirector() {
                 </div>
 
                 {/* Managing Director*/}
-                <div className="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-8 ">
+                <div className="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-15 ">
                     <div className="grid grid-cols-1 gap-12 place-items-center">
                         <img
                             src="/images/mukeshrathi.png"
@@ -58,7 +58,7 @@ export default function Boardofdirector() {
                 </div>
 
                 {/*Director*/}
-                <div className="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-8">
+                <div className="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-15">
                     <div className="grid grid-cols-1 gap-12 place-items-center">
                         <img
                             src="/images/bhimraj.png"
@@ -74,7 +74,7 @@ export default function Boardofdirector() {
                     </div>
                 </div>
                 {/* Director*/}
-                <div className="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-8">
+                <div className="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-15">
                     <div className="grid grid-cols-1 gap-12 place-items-center">
                         <img
                             src="/images/pankajrathi.png"

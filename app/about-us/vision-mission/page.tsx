@@ -1,7 +1,9 @@
-export default function Page (){
-    return(
-        <div>
-            <h1>vision and mission</h1>
-        </div>
-    )
+import VisionMission from "../../../components/aboutdropdown/visionandmission";
+
+export default function Page() {
+  return (
+    <>
+    <VisionMission/>
+  </>
+);
 }

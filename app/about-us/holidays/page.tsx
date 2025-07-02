@@ -1,7 +1,9 @@
+import Holidays from "../../../components/aboutdropdown/holidays";
+
 export default function Page (){
     return(
         <div>
-            <h1>Holidays</h1>
+            <Holidays/>
         </div>
     )
 }

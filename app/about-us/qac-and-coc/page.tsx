@@ -1,7 +1,9 @@
+
+
 export default function Page (){
     return(
         <div>
-            <h1>QAC and COC</h1>
+         <h1>QAc and Coc</h1>
         </div>
     )
 }

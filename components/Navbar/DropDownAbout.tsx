@@ -55,12 +55,12 @@ export default function DropDownAbout() {
             </Link>
           </li>
           <li>
-            <Link href="/about-us/history-memories" className="block px-4 py-2 hover:bg-gray-100">
+            <Link href="/about-us/history-and-memories" className="block px-4 py-2 hover:bg-gray-100">
               History & Memories
             </Link>
           </li>
           <li>
-            <Link href="/about-us/qac-coc" className="block px-4 py-2 hover:bg-gray-100">
+            <Link href="/about-us/qac-and-coc" className="block px-4 py-2 hover:bg-gray-100">
               QAC & COC
             </Link>
           </li>
