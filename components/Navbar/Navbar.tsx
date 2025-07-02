@@ -108,7 +108,7 @@ export default function Navbar() {
               <Link
                 href="/newsevents"
                 className={`px-4 py-2 rounded-md font-semibold transition ${
-                  isActive("/newevents")
+                  isActive("/newsevents")
                     ? "bg-white text-black"
                     : "hover:bg-white hover:text-black"
                 }`}

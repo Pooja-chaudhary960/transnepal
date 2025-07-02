@@ -26,7 +26,7 @@ export default function About() {
 
                 {/* Image Section */}
                 <div className="w-full md:w-1/2 flex justify-center">
-                    <img src="images/aboutus.png" className="rounded-lg shadow-md w-auto h-[330px] mb-4" />
+                    <img src="images/aboutus.png" className="rounded-[15px] shadow-md w-auto h-[330px] mb-4" />
                 </div>
             </div>
 

@@ -3,23 +3,14 @@
 export default function Formsection() {
   return (
     <div
-      className="  bg-cover bg-center h-auto flex items-center w-cover justify-center"
+      className="  bg-cover bg-center lex items-center w-cover justify-center min-h-[400px] w-full"
       style={{ backgroundImage: "url('/images/image4.png')" }} 
     >
       <div className=" bg-opacity-50 w-full max-w-7xl mx-auto p-6 md:p-12 rounded-lg flex flex-col md:flex-row text-center justify-center gap-10 items-center">
         
-        {/* Left Image */}
-        <div className="w-full md:w-1/2 md:mr-8 flex justify-center md:justify-start ">
-          <img
-            src="/images/weighment1image.png" 
-            alt="Weighment"
-            className="rounded-lg shadow-lg w-auto h-[250px] object-cover"
-          />
-        </div>
-
         {/* Right Form */}
         <div className="w-full md:w-1/2 text-white flex flex-col items-center text-center  ">
-          <h2 className="text-xl md:text-2xl md:text-2xl font-bold mb-6  ">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 mt-2 md:mt-6 ">
             Fill the Form and Get a Quote
           </h2>
           <form className="space-y-4">

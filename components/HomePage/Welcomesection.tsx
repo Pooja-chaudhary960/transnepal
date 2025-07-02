@@ -1,19 +1,19 @@
 export default function Welcomesection() {
     return (
-        <div className="h-auto bg-gray-500 flex items-center justify-center py-4 px-4">
-            <div className="grid md:grid-cols-2 gap-10 max-w-7xl w-full bg-gray-500 rectangle-xl overflow-hidden">
+        <div className="h-auto bg-black flex items-center justify-center py-4 px-4">
+            <div className="grid md:grid-cols-2 gap-10 max-w-7xl w-full bg-black-500 rectangle-xl overflow-hidden">
 
                 {/* Left parts*/}
-                <div className="bg-gray-500">
+                <div className="bg-black">
                     <img
                         src="/images/welcomesec.png" 
                         alt="TransNepal"
-                        className="w-full h-full object-cover"
+                        className="w-[500px] h-[300px] object-cover rounded-[15px] mt-8"
                     />
                 </div>
 
                 {/* Right parts */}
-                <div className="bg-blue-500 text-white p-4 flex flex-col justify-center">
+                <div className=" text-white p-4 flex flex-col justify-center">
                     <h2 className="text-2xl font-bold mb-4 mt-2 ml-1">
                         Welcome to TransNepal
                     </h2>

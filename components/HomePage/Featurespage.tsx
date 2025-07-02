@@ -67,9 +67,9 @@ export default function FeaturesPage() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
                     {features.map((feature, index) => (
                         <div key={index} className="flex flex-col items-center sm:flex-row sm:items-start gap-4">
-                            {/* Icon inside diamond */}
-                            <div className="min-w-[48px] min-h-[48px] bg-blue-500 text-blue-600 bg-white shadow-md flex items-center justify-center rounded-[20%] rotate-45 mx-auto sm:mx-0">
-                                <div className="-rotate-45">{feature.icon}</div>
+                           
+                            <div className="min-w-[48px] min-h-[48px] bg-blue-500 text-blue-600 bg-white shadow-md flex items-center justify-center rounded-[8px] mx-auto sm:mx-0">
+                                <div >{feature.icon}</div>
                             </div>
 
                             {/* Text */}

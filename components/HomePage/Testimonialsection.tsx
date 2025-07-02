@@ -1,8 +1,8 @@
 export default function Testimonialsection() {
   return (
     <div className="bg-white py-6 px-4 mt text-center">
-      <h2 className="text-lg text-black-700 font-semibold mb-2 pt-6">TESTIMONIAL</h2>
-      <p className="text-black-500 text-base max-w-full mb-14 mt-4 ">
+      <h2 className="text-lg text-black-700 font-semibold mb-4 pt-10">TESTIMONIAL</h2>
+      <p className="text-black-500 text-base max-w-full mb-14 mt-8 ">
         We understand that in order to maximize customer satisfaction, the flow of your supply chain from product to information to finance needs to be responsive towards demand.
       </p>
 
@@ -12,7 +12,7 @@ export default function Testimonialsection() {
             <img 
               src="/images/mukeshrathi.png"
               alt="Mukesh Rathi"
-              className="w-24 h-24 rounded-full border-2 border-black-500 object-cover"
+              className="w-40 h-40 rounded-full border-2 border-black-500 object-cover"
             />
           </div>
           <h3 className="text-blue-600 font-bold">Mr Mukesh Rathi</h3>
@@ -28,7 +28,7 @@ export default function Testimonialsection() {
             <img
               src="/images/sureshkumar.png"
               alt="Suresh Kumar"
-              className="w-24 h-24 rounded-full border-2 border-black-500 object-cover"
+              className="w-40 h-40 rounded-full border-2 border-black-500 object-cover"
             />
           </div>
           <h3 className="text-blue-600 font-bold text-base text-center">Mr. Suresh Kumar R</h3>
