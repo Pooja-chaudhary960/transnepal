@@ -53,7 +53,7 @@ export default function NewsAndEvents() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {news.map((item, index) => (
           <div key={index} className="bg-white rounded-lg shadow hover:shadow-lg transition duration-300 flex flex-col">
-            {/* Image */}
+          
             <div className="h-48 w-full relative rounded-t-lg overflow-hidden">
               <img
                 src={item.image}
@@ -62,7 +62,6 @@ export default function NewsAndEvents() {
               />
             </div>
 
-            {/* Content */}
             <div className="p-4 flex-1 flex flex-col">
               <p className="text-sm text-gray-500 mb-2">{item.date}</p>
               <h3 className="text-lg font-semibold text-gray-800 mb-2">{item.title}</h3>

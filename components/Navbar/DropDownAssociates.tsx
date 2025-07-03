@@ -41,12 +41,7 @@ export default function DropDownAssociates() {
           </li>
           <li>
             <Link href="/associates/transnepal" className="block px-4 py-2 hover:bg-gray-100">
-              TransNepal TRS
-            </Link>
-          </li>
-          <li>
-            <Link href="/associates/logipark" className="block px-4 py-2 hover:bg-gray-100">
-              Logipark Pvt. Ltd.
+              TransNepal TRS Logipark Pvt. Ltd.
             </Link>
           </li>
         </ul>

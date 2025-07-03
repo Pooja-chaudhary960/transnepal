@@ -26,10 +26,9 @@ export default function Contact() {
     <div className="bg-gray-50 py-10 px-4">
       <div className="max-w-6xl mx-auto space-y-8">
 
-        {/* Form and Contact Info in a row */}
+ 
         <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0">
 
-          {/* Contact Form Card */}
           <div className="bg-white shadow-lg rounded-lg p-8 flex-1 text-center">
             <h2 className="text-3xl font-bold mb-6 text-indigo-700">Get in Touch</h2>
             <form onSubmit={handleSubmit} className="space-y-4 flex flex-col items-center">
@@ -77,7 +76,7 @@ export default function Contact() {
             </form>
           </div>
 
-          {/* Contact Info Card */}
+        
           <div className="bg-white shadow-lg rounded-lg p-8 flex-1 text-left">
             <h3 className="text-2xl font-bold text-indigo-700 mb-6 text-center">Contact Information</h3>
             <div className="space-y-4 text-gray-700 text-base">
@@ -118,7 +117,6 @@ export default function Contact() {
           </div>
         </div>
 
-        {/* Map Full Width */}
         <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen h-64 md:h-96 overflow-hidden shadow-lg -mb-10">
           <iframe
             title="TransNepal Location"

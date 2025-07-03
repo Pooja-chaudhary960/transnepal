@@ -74,7 +74,7 @@ export default function Navbar() {
                     : "hover:bg-white hover:text-black"
                 }`}
               >
-                Tariff
+                Tarrif
               </Link>
             </li>
             <li>

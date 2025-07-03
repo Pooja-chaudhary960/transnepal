@@ -43,7 +43,7 @@ export default function Gallery() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {images.map(({ src, alt, title }, index) => (
           <div key={index} className="bg-white rounded-lg shadow hover:shadow-lg transition duration-300">
-            {/* Image */}
+          
             <div className="w-full h-64 relative">
               <Image
                 src={src}
@@ -54,7 +54,7 @@ export default function Gallery() {
               />
             </div>
 
-            {/* Title below image */}
+          
             <div className="p-4 text-center">
               <h3 className="text-lg font-semibold text-gray-800">{title}</h3>
             </div>
