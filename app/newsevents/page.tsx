@@ -46,7 +46,7 @@ export default function NewsAndEvents() {
   return (
     <div className="bg-gray-50 py-10 px-4">
       <div className="max-w-6xl mx-auto text-center mb-10">
-        <h1 className="text-4xl font-bold text-indigo-700 mb-4">News & Events</h1>
+        <h1 className="text-4xl font-bold text-black-700 mb-4">News & Events</h1>
         
       </div>
 
